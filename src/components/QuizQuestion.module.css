@@ -1,0 +1,115 @@
+
+.main{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, #3f5efb 0%, #fc46e0 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 36px 12px ;
+    box-sizing: border-box;
+}
+.questionContainer{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 36px 12px ;
+    box-sizing: border-box;
+}
+.countDown{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.disabled{
+    background-color: rgba(174, 172, 172, 0.495);
+    cursor:crosshair;
+}
+.card{
+    max-width: 600px;
+    border-radius: 24px;
+    color: black;
+    height: fit-content;
+    padding: 20px;
+    font-size: 22px;
+    background-color: rgba(240, 255, 252, 0.923);
+    box-shadow: 1px 1px 2px 1px #fc46e0;
+    transition: 1s ease-out;
+    position: relative;
+}
+.question{
+    font-weight: 600;
+}
+ .options{
+    width: 100%;
+    cursor: pointer;
+}
+ .options p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 94%;
+    padding: 10px 3%;
+    border: 1px solid #a2a2a2;
+    border-radius: 30px;
+} 
+.answer{ 
+    margin-top: 2rem;
+    background-color: #71ff2f;
+    border-radius: 6px;
+    width: 94%;
+    padding: 10px 3%;   
+} 
+
+  .correctOption {
+    background-color: green;
+    color: white;  
+    border-radius: 30px;
+  }
+  
+  .wrongOptions {
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+  }
+  
+  
+
+
+.footer{
+   display: flex;
+   margin-block: 10px;
+   width: 50%;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.nextBtn{
+    background-color: rgba(98, 197, 216, 0.63);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;   
+}
+.previousBtn{ 
+    background-color: rgba(239, 58, 179, 0.751);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;  
+}
+
+
+@media (max-width: 520px) {
+    .main{
+       height: 140vh;
+    }
+    .footer{
+       flex-direction: column;
+       
+    }
+    .outOfQuestion{
+        margin-block: 10px;
+    }
+}

@@ -1,0 +1,72 @@
+
+.Home{
+    background-image: url('https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainContainer{
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{ 
+    display: flex;
+    width: 100%;
+    margin-inline: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #a638d1e5; 
+    gap: 10px;
+    margin-top: 5rem;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.headSection{
+    background-color: #b05dd7e4;
+    font-size: 22px;
+    width: 100%;
+    border-radius: 30px 30px 0 0 ;  
+   
+}
+.headAdjust{
+    padding: 20px 30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bottomSection{
+    font-size: 22px;  
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duration{
+    color: #651d82;
+    font-size: 18px;
+}
+.durationTime{
+    color: #651d82;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.startBtn{
+    padding-inline: 60px;
+    padding-block: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-block: 10px 20px;
+    color: #FFFFFF;
+    background-color: #b05dd7e4;
+    border: none;
+}
